@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Trivia de Inglés</h1>
+
+    <div class="categoria" id="pregunta1">
+        <h3>Pregunta 1:</h3>
+        <p>Choose the correct way to ask in English: 'PODEMOS PROGRAMAR EN HTML?'</p>
+        <ul>
+            <li><input type="radio" name="pregunta1" value="a">"Can were program OR html?"</li>
+            <li><input type="radio" name="pregunta1" value="b">"Can we program IN html?"</li>
+            <li><input type="radio" name="pregunta1" value="c">"Where can program in html?"</li>
+        </ul>
+    </div>    
+    
+    <div class="categoria" id="pregunta2">
+        <h3>Pregunta 2:</h3>
+        <p>Which of the following sentences is in the past tense?</p>
+        <ul>
+            <li><input type="radio" name="pregunta2" value="a">"She is eating lunch."</li>
+            <li><input type="radio" name="pregunta2" value="b">"He will play tennis tomorrow."</li>
+            <li><input type="radio" name="pregunta2" value="c">"They watched a movie last night."</li>
+        </ul>
+    </div>
+
+    <button id="calificar">Calificar</button>
+
+    <div id="resultados" style="display: none;">
+        <h2>Resultados</h2>
+        <ul id="respuestasCorrectas"></ul>
+        <button id="volverAJugar">Volver a Jugar</button>
+    </div>
+
+    <script src="trivia.js"></script>
+</body>
+</html>
