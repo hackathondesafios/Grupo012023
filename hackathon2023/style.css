@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica';
+    font-size: 40px;
+    text-align: center;
+}
+
+body{
+
+    height: 100vh;
+    justify-content: center;
+
+     background-color: rgb(216,249,255) ;
+     font-size: 40px;
+     text-align: center;
+     font-weight: bold;
+}
+.texto-img{
+    margin-bottom: 100px;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+.imagen{
+    height: 30%;
+    max-width: 100%;
+   margin-top: 5%;
+    flex-direction: row;
+
+}
+
+.hack{
+    margin-top: 15%;
+}
+.botones{
+margin-bottom: 100px;
+     display: flex;
+     justify-content: space-around;
+     flex-direction: row;
+     align-items: center;
+     align-content: center;
+     
+}
+
+/* Estilos para el botón de inicio del juego */
+button {
+    background-color:rgb(0,119,105) ;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+
+a{
+    font-size: 16px;
+    margin: 10px;
+}
+
+p{
+font-size: 23px;
+margin-bottom: 30px;
+}
+
+.btn{
+width: 250px;
+background-color:  rgb(164,228,216);
+border: 2px solid  rgb(0,119,105) ;
+border-radius: 5px;
+padding: 30px ;
+color:  rgb(0,119,105);
+
+}
+.btn:hover{
+    background-color: rgb(62, 163, 48);
+    
+}
+
+/* Estilos para la trivia */
+.categoria {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    max-width: 800px; /* Aumentamos el ancho para dar espacio a las columnas */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.columna {
+    flex: 1; /* Cada columna ocupa el mismo espacio disponible */
+    padding: 10px; /* Espacio entre las columnas */
+}
+
+h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+#calificar {
+    background-color: rgb(0,119,105) ;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 20px 0;
+    align-self: center; /* Centrar el botón en el espacio entre las columnas */
+}
+
+#calificar:hover {
+    background-color: rgb(62, 163, 48) ;
+}
+
+#resultados {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none; /* Ocultar resultados inicialmente */
+}
+
+#respuestasCorrectas {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#respuestasCorrectas li {
+    margin-bottom: 10px;
+}
