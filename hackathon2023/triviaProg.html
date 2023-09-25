@@ -9,27 +9,29 @@
 <body>
     <h1>Trivia de Programación</h1>
 
-    <div class="categoria" id="pregunta1">
-        <h3 class="columna">Pregunta 1:</h3>
-        <p>¿Con qué símbolo se declara un vector en C#?</p>
-        <ul>
-            <li><input type="radio" name="pregunta1" value="a">{}</li>
-            <li><input type="radio" name="pregunta1" value="b">[]</li>
-            <li><input type="radio" name="pregunta1" value="c">()</li>
-        </ul>
-    </div>    
-    
-    <div class="categoria" id="pregunta2">
-        <h3>Pregunta 2:</h3>
-        <p>¿Qué lenguaje se usa para dar estilos a un documento HTML?</p>
-        <ul>
-            <li><input type="radio" name="pregunta2" value="a">php</li>
-            <li><input type="radio" name="pregunta2" value="b">python</li>
-            <li><input type="radio" name="pregunta2" value="c">css</li>
-        </ul>
-    </div>
+    <div id="contenidoAnterior">
+        <div class="categoria" id="pregunta1">
+            <h3 class="columna">Pregunta 1:</h3>
+            <p>¿Con qué símbolo se declara un vector en C#?</p>
+            <ul>
+                <li><input type="radio" name="pregunta1" value="a">{}</li>
+                <li><input type="radio" name="pregunta1" value="b">[]</li>
+                <li><input type="radio" name="pregunta1" value="c">()</li>
+            </ul>
+        </div>    
+        
+        <div class="categoria" id="pregunta2">
+            <h3>Pregunta 2:</h3>
+            <p>¿Qué lenguaje se usa para dar estilos a un documento HTML?</p>
+            <ul>
+                <li><input type="radio" name="pregunta2" value="a">php</li>
+                <li><input type="radio" name="pregunta2" value="b">python</li>
+                <li><input type="radio" name="pregunta2" value="c">css</li>
+            </ul>
+        </div>
 
-    <button id="calificar">Calificar</button>
+        <button id="calificar">Calificar</button>
+    </div>
 
     <div id="resultados" style="display: none;">
         <h2>Resultados</h2>
